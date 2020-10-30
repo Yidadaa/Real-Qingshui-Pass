@@ -13,7 +13,7 @@ async function main() {
   await git.checkout('gh-pages')
 
   console.log('[git] deploying')
-  // delete old files and copy new file
+
   shell.ls(distPath).forEach(v => {
     let gitFile = path.resolve(destPath, v)
     if (fs.existsSync(gitFile)) {
@@ -26,7 +26,7 @@ async function main() {
   console.log('[git] deploying...')
   git.add('.')
     .commit(`deploy(page): version ${nowStr}`)
-    // .push(() => console.log('[git] delploy done'))
+    .push(() => console.log('[git] delploy done'))
 }
 
 main()
