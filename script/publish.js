@@ -10,7 +10,7 @@ async function main() {
 
   const git = Git(destPath)
 
-  git.checkout('gh-pages')
+  await git.checkout('gh-pages')
 
   console.log('[git] deploying')
   // delete old files and copy new file
