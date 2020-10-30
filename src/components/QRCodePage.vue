@@ -5,7 +5,7 @@
       <img src="../assets/qr.jpg" alt="" class="qr-img">
       <div class="qr-text">二维码剩余有效时间{{time}}秒</div>
       <md-button class="md-primary md-raised">
-        <span class="qr-button-content" @click="$router.replace('/rule')">查看通行规则</span>
+        <span class="qr-button-content" @click="$router.push('/rule')">查看通行规则</span>
       </md-button>
     </div>
   </div>

@@ -64,7 +64,7 @@ export default {
       showSnack: false,
       showPrompt: false,
       timeStr: new Date().toLocaleString(),
-      name: '张沸无',
+      name: '试着点我三次',
       humanType: '研究生（硕士）',
       clickCount: 0
     }
@@ -77,12 +77,18 @@ export default {
   },
 
   mounted () {
+    document.title = '平安成电智慧通行'
+
     setTimeout(() => {
       this.loading = false
 
       setTimeout(() => {
         this.hiddenLoading = true
         this.showSnack = true
+
+        setTimeout(() => {
+          this.showSnack = false
+        }, 3000)
       }, 500);
     }, 1000);
 
@@ -172,7 +178,7 @@ export default {
       padding: 30px 20px 40px 20px;
       box-sizing: border-box;
       color: rgb(0, 125, 0);
-      font-size: 20px;
+      font-size: 24px;
       font-weight: bold;
       border-bottom: 1px solid #ddd;
     }
@@ -197,7 +203,7 @@ export default {
 
         &.time-text {
           font-size: 18px;
-          width: 150px;
+          width: 180px;
           overflow: hidden;
           color: rgb(11, 198, 167);
         }
