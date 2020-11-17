@@ -42,6 +42,10 @@
       </md-button>
     </div>
 
+    <div class="logo">
+      <img src="../assets/logo.png" alt="" class="logo-img">
+    </div>
+
     <div class="input-prompt">
       <md-dialog-prompt
         :md-active.sync="showPrompt"
@@ -221,6 +225,18 @@ export default {
     .pass-button-content {
       padding: 0 10px;
       color: white;
+    }
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .logo-img {
+      width: 60px;
+      height: 60px;
+      margin-top: 20px;
     }
   }
 
