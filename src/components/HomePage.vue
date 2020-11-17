@@ -42,7 +42,7 @@
       </md-button>
     </div>
 
-    <div class="logo">
+    <div class="logo" v-if="hiddenLoading">
       <img src="../assets/logo.png" alt="" class="logo-img">
     </div>
 
