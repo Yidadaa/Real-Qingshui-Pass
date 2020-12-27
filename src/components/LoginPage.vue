@@ -23,12 +23,15 @@ export default {
   },
 
   mounted () {
+    const { type } = this.$route.query
+    const qText = type !== undefined ? `?type=${type}` : ''
+
     document.title = ''
     timer = setInterval(() => {
       if (this.amount < 100) this.amount += parseInt(Math.random() * 80)
 
       if (this.amount >= 100) {
-        this.$router.replace('/home')
+        this.$router.replace('/home' + qText)
         timer && clearInterval(timer)
       }
     }, 300);

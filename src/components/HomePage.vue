@@ -14,7 +14,7 @@
     </div>
 
     <div class="pass-content" v-if="hiddenLoading">
-      <div class="pass-result">授权有效！</div>
+      <div class="pass-result">{{ textContent }}</div>
       <md-list class="pass-list">
         <md-list-item>
           <svg class="list-icon" focusable="false" viewBox="0 0 24 24" aria-hidden="true" tabindex="-1" title="Person" data-ga-event-category="material-icons" data-ga-event-action="click" data-ga-event-label="Person"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path></svg>
@@ -71,6 +71,14 @@ export default {
       name: '试着点我三次',
       humanType: '研究生（硕士）',
       clickCount: 0
+    }
+  },
+
+  computed: {
+    textContent () {
+      const { type } = this.$route.query
+      const tText = type && type === 'out' ? '出校' : '入校'
+      return `研究生用户，${tText}授权有效！`
     }
   },
 
