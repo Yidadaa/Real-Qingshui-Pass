@@ -27,6 +27,8 @@ async function main() {
   git.add('.')
     .commit(`deploy(page): version ${nowStr}`)
     .push(() => console.log('[git] delploy done'))
+
+  await git.checkout('main')
 }
 
 main()
