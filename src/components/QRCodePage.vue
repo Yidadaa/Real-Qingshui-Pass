@@ -1,4 +1,6 @@
 <template>
+<div>
+  <app-bar title="平安成电智慧通行"></app-bar>
   <div class="qr-page-wrapper">
       <div class="qr-page md-elevation-2">
       <div class="qr-title">行人二维码</div>
@@ -9,11 +11,17 @@
       </md-button>
     </div>
   </div>
+</div>
 </template>
 
 <script>
+import AppBar from './AppBar.vue'
+
 export default {
   name: 'QRCodePage',
+  components: {
+    AppBar
+  },
 
   data () {
     return {
