@@ -15,6 +15,7 @@ import PassRulePage from './components/PassRulePage.vue'
 import WechatPage from './components/WechatPage.vue'
 import ScanPage from './components/ScanPage.vue'
 import SettingPage from './components/SettingPage.vue'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
