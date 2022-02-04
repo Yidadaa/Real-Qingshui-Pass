@@ -44,7 +44,7 @@ const router = new VueRouter({
       path: '/scan', component: ScanPage
     }, {
       path: '/setting', component: SettingPage
-    }, {
+    }, { 
       path: '/sq', component: SQCodePage
     },
   ]
