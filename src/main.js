@@ -15,6 +15,7 @@ import PassRulePage from './components/PassRulePage.vue'
 import WechatPage from './components/WechatPage.vue'
 import ScanPage from './components/ScanPage.vue'
 import SettingPage from './components/SettingPage.vue'
+import SQCodePage from './components/SQCodePage.vue'
 import './registerServiceWorker'
 
 Vue.config.productionTip = false
@@ -43,7 +44,9 @@ const router = new VueRouter({
       path: '/scan', component: ScanPage
     }, {
       path: '/setting', component: SettingPage
-    }
+    }, {
+      path: '/sq', component: SQCodePage
+    },
   ]
 })
 

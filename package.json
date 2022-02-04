@@ -16,6 +16,7 @@
     "register-service-worker": "^1.7.1",
     "sass": "^1.28.0",
     "sass-loader": "^10.0.4",
+    "screenfull": "^4.2.0",
     "vue": "^2.6.11",
     "vue-material": "^1.0.0-beta-15",
     "vue-router": "^3.4.8"
