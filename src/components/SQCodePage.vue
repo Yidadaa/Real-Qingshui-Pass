@@ -1,5 +1,6 @@
 <template>
     <div class="sqcode-page">
+        <app-bar title="商丘疫情防控码"/>
         <img src="../assets/banner.jpg" />
         <div class="page-content">
             <div class="time">{{date}}</div>
@@ -11,7 +12,13 @@
 </template>
 
 <script>
+import AppBar from './AppBar.vue'
+
 export default {
+    components: {
+        AppBar
+    },
+
     data() {
         const date = new Date()
         const m = (date.getMonth() + 1).toString().padStart(2, '0')
@@ -48,13 +55,13 @@ export default {
 
     .tip {
         color: rgb(59, 122, 41);
-        font-size: 24px;
+        font-size: 26px;
         margin-top: 20px;
         line-height: 1.5;
     }
 
     .close-tip {
-        font-size: 14px;
+        font-size: 16px;
         color: rgb(211, 61, 45);
     }
 }
