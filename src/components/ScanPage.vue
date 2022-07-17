@@ -57,11 +57,11 @@ function setupVideo(video = new HTMLVideoElement()) {
 }
 
 export default {
-  mounted () {
+  mounted() {
     const video = document.getElementById("video")
     setupVideo(video).then(() => {
       setTimeout(() => {
-        this.$router.replace('./sq')
+        this.$router.replace('./bj')
       }, 1000)
     }).catch(() => {
       alert("打开摄像头出错！")
