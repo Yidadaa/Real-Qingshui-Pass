@@ -20,11 +20,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "apple-touch-icon.png"
   },
   {
-    "revision": "d78a19bdde8f27ca05b9",
-    "url": "css/app.2f178a7d.css"
+    "revision": "cdf768ad10d795f6bbcf",
+    "url": "css/app.a3e68e1b.css"
   },
   {
-    "revision": "17704931503816b8de52",
+    "revision": "62211530f9b8a4ec60e4",
     "url": "css/chunk-vendors.09b7d566.css"
   },
   {
@@ -36,12 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "favicon-32x32.png"
   },
   {
-    "revision": "ed66e07ee77805d9202b5cf97b13058f",
-    "url": "img/add.ed66e07e.svg"
+    "revision": "94ac5ed9391071e35bf5133c3cf4e401",
+    "url": "img/add.94ac5ed9.svg"
   },
   {
     "revision": "6e72989e6889cc9519bd410a32188bb8",
     "url": "img/album.6e72989e.svg"
+  },
+  {
+    "revision": "4a57431b18841aa871f7579d21cd31d7",
+    "url": "img/avatar.4a57431b.png"
   },
   {
     "revision": "64b50ba65882a62e8767fc5e57f680bd",
@@ -52,44 +56,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/banner.7a1fb435.jpg"
   },
   {
-    "revision": "48174bc44c04c54e1faf7d834179b4d2",
-    "url": "img/chat-green.48174bc4.svg"
+    "revision": "c768d5ff2eb868bab963d9e764a15446",
+    "url": "img/bj.c768d5ff.jpg"
   },
   {
-    "revision": "2c994b3bc858d6bfa52f47eeefa1d99e",
-    "url": "img/chat.2c994b3b.svg"
+    "revision": "42ae222066331669cca3d04e6e73d6d2",
+    "url": "img/chat-green.42ae2220.svg"
+  },
+  {
+    "revision": "0d4819e370b48192a96a9735c4da5a4f",
+    "url": "img/chat.0d4819e3.svg"
   },
   {
     "revision": "091a88e3e7c0d95f923bb67214b6d076",
     "url": "img/close.091a88e3.svg"
   },
   {
-    "revision": "40b7d00b7ce755ae13d5907f3c6a3227",
-    "url": "img/compass.40b7d00b.svg"
+    "revision": "38fed3ee5418b12d5904dd0c1c88bf9b",
+    "url": "img/compass.38fed3ee.svg"
   },
   {
-    "revision": "ffc95ce6d6a462923cbc23833d7c2c19",
-    "url": "img/contact.ffc95ce6.svg"
+    "revision": "5782d94e141aa1f442550d57d7b73646",
+    "url": "img/contact.5782d94e.svg"
   },
   {
-    "revision": "da3ec019f546391ac4d0b96bad76678d",
-    "url": "img/friendadd-fill.da3ec019.svg"
+    "revision": "ad3b00d8df753de24e98e54a8c9b1e58",
+    "url": "img/friendadd-fill.ad3b00d8.svg"
   },
   {
     "revision": "0ed7fb73b3d504d1ef8c4d55accee723",
     "url": "img/logo.0ed7fb73.png"
   },
   {
-    "revision": "e33656e3be38b783ed5d358af42f54b2",
-    "url": "img/mail-fill.e33656e3.svg"
+    "revision": "3d15a57889c5708c30c9f01461226533",
+    "url": "img/mail-fill.3d15a578.svg"
   },
   {
     "revision": "4ba4c92b3f2b3a502b5c8432d277accd",
     "url": "img/more.4ba4c92b.svg"
   },
   {
-    "revision": "43d89c3f1efad02d812cc198d1224cc3",
-    "url": "img/pay.43d89c3f.svg"
+    "revision": "0229273300068a45ed8f2d586ab6d623",
+    "url": "img/pay.02292733.svg"
   },
   {
     "revision": "39629214f1507b7696c3b472e8d0cac2",
@@ -100,43 +108,43 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/qr.4c828820.jpg"
   },
   {
-    "revision": "8693f657d7cbd55a968a8b7e1f469dfe",
-    "url": "img/scan.8693f657.svg"
+    "revision": "ea504b49bb13a43051213cc09dab1af8",
+    "url": "img/scan.ea504b49.svg"
   },
   {
-    "revision": "8f10dfa07e1070ca86c0b5ab747d792b",
-    "url": "img/search.8f10dfa0.svg"
+    "revision": "8ab806620d688d28e77030a04d27de10",
+    "url": "img/search.8ab80662.svg"
   },
   {
     "revision": "c29b4e169dbb865a4678be9e7411ca3b",
     "url": "img/sqr.c29b4e16.jpg"
   },
   {
-    "revision": "4d7104c2333273369bc469dc4b36b69a",
-    "url": "img/user.4d7104c2.svg"
+    "revision": "50ddf8945e6b5fc1d2a818907d9b48b9",
+    "url": "img/user.50ddf894.svg"
   },
   {
     "revision": "03883c8e452e0058b1182595974235a4",
     "url": "img/wechat.03883c8e.svg"
   },
   {
-    "revision": "3dc85dd193242a1d1f21d06fc6e64905",
+    "revision": "87fe3ebc65c808b268279d9da529c3cc",
     "url": "index.html"
   },
   {
-    "revision": "d78a19bdde8f27ca05b9",
-    "url": "js/app.5b833f5c.js"
+    "revision": "cdf768ad10d795f6bbcf",
+    "url": "js/app.21280032.js"
   },
   {
-    "revision": "17704931503816b8de52",
-    "url": "js/chunk-vendors.7155fb7a.js"
+    "revision": "62211530f9b8a4ec60e4",
+    "url": "js/chunk-vendors.44adc319.js"
   },
   {
     "revision": "3d5e3315eafeaf172574ce2b9ed94e7c",
     "url": "manifest.json"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "robots.txt"
   }
 ]);
