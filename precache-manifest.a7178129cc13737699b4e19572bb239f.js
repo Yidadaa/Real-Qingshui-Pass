@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "apple-touch-icon.png"
   },
   {
-    "revision": "cdf768ad10d795f6bbcf",
-    "url": "css/app.a3e68e1b.css"
+    "revision": "97a7124475f4ce4e6ae4",
+    "url": "css/app.baa7eb8f.css"
   },
   {
     "revision": "62211530f9b8a4ec60e4",
@@ -128,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/wechat.03883c8e.svg"
   },
   {
-    "revision": "87fe3ebc65c808b268279d9da529c3cc",
+    "revision": "ef0a9ee13329b91318b27bf235f16b07",
     "url": "index.html"
   },
   {
-    "revision": "cdf768ad10d795f6bbcf",
-    "url": "js/app.21280032.js"
+    "revision": "97a7124475f4ce4e6ae4",
+    "url": "js/app.6b3d7ad2.js"
   },
   {
     "revision": "62211530f9b8a4ec60e4",
