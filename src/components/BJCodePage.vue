@@ -13,7 +13,7 @@
       <div v-for="(v, i) in new Array(11).fill(0)" v-bind:key="i" class="dot left"
         :style="`bottom: ${i * 8.8}%; left: 0;`" :class="`left-${i}`">
       </div>
-      <img src="../assets/avatar.png" class="avatar" />
+      <img src="../assets/avatar.png" class="avatar" @click="fullscreen" />
     </div>
     <div class="text">扫码未见异常</div>
     <div class="date">{{ date }}</div>
@@ -45,6 +45,12 @@ export default {
     setInterval(() => {
       this.date = getDate()
     }, 500)
+  },
+
+  methods: {
+    fullscreen() {
+      document.documentElement.requestFullscreen()
+    }
   }
 }
 </script>
